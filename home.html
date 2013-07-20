@@ -6,6 +6,21 @@
       <link rel="stylesheet" type="text/css" href="home.css"/>
 	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="storegridstye.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+		
+		<!-- DEMO JS -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<!-- END DEMO JS -->
+
 	<!--changes the CSS depending on screen size-->
     <!--<meta name="viewport" content="width=device-width">-->
     <meta name="viewport" content="width=480">
@@ -14,27 +29,24 @@
 	<body>
 		<!--header and search-->
 		<div id = "titleHolder">
-			<!--<div id="mainlogo"><div id="mimage"><a href="Ben_p2.html"><img src="nicksinghlogointerim.png" alt="logo"></a></div></div>-->
 			<div id="nstitle">i am nick singh</div>
 			<div id="slogan">marketer. designer. innovator.</div>
-			<!--viewchanger-->
-		<div id="viewchangeholder">
-		<div id="viewchange">
+			<!--social media buttons-->
+		<div id="socialmediaholder">
+		<div id="socialmedia">
 			<nav>
 				<ul>
   					
-  					<li class="viewicons"><a href="http://www.twitter.com/nicksingh4"><img src="twittericonwhite.png" alt="gridpage"></a></li>
-  					<li class="viewicons"><a href="http://ca.linkedin.com/in/nicksingh4/"><img src="linkediniconwhite.png" alt="rowpage" ></a></li>
-  					 <li class="viewicons"><a href="http://www.youtube.com/user/LINK1054"><img src="youtubeiconwhite.png" alt="rowpage" ></a></li>
+  					<li class="socialicons"><a href="http://www.twitter.com/nicksingh4"><img src="twittericonwhite.png" alt="gridpage"></a></li>
+  					<li class="socialicons"><a href="http://ca.linkedin.com/in/nicksingh4/"><img src="linkediniconwhite.png" alt="rowpage" ></a></li>
+  					 <li class="socialicons"><a href="http://www.youtube.com/user/LINK1054"><img src="youtubeiconwhite.png" alt="rowpage" ></a></li>
 
 				</ul>
 			</nav>
 		</div>
 		</div>
-			
-			<div id="candyimage">
-				
-			</div>
+		
+		
 		</div>
 		<div class="navtext">
 				<p>WELCOME</p>
@@ -43,8 +55,23 @@
 				<p>A Collection of My Work</p>
 		</div>
 		
+			<!-- nav bar-->
+		<div id="navmenu">
+			<div id="navhold">
+				<nav>
+					<ul>
+					  	<li class="current"> <a href="store.html">Portfolio</a> </li>
+  						<li> <a href="about.html">About</a> </li>
+  						<li > <a href="video.html">Contact</a> </li>
+ 		 			
+
+					</ul>
+				</nav>
+			</div>
+		</div>	
+		<br/>
 		<!--main nav-->
-		<div id="mainmenu">
+		<!--<div id="mainmenu">
 			<div id="menuhold">
 				<nav>
 					<ul>
@@ -58,69 +85,213 @@
 					</ul>
 				</nav>
 			</div>
-		</div>	
+		</div>	-->
 		
 		
+<!-- WDT top bar -->
 		
-		
+		</div><!--/ WDT top bar -->
+        
+        
+	<div id="wrapper">
+ 
+        
+            <div class="container">
+            <!-- DEMO -->
+                 <nav class="primary clearfix">
+                    <ul>
+                        <li><a href="#" class="selected" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".web">Video</a></li>
+                        <li><a href="#" data-filter=".ill">Design</a></li>
+                        <li><a href="#" data-filter=".logo">Branding</a></li>
+                        <li><a href="#" data-filter=".video">Website</a></li>
+                        <li><a href="#" data-filter=".print">Writing</a></li>
+                    </ul>
+                </nav>
+
+
+		<section class="main">
+			
+			<div class="portfolio">
+				
+				<article class="entry video">
+					<a data-rel="prettyPhoto" href="http://vimeo.com/34266952"><!--delete teh data-rel portion to allow linking to other page-->
+                    <img src="theraven.png" alt="">
+					<span class="video-hover"></span>
+                    </a>
+				</article>
+
+				<article class="entry web">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work2.jpg">
+					<img src="images/portfolio/work2.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>
+
+				<article class="entry print">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work3.jpg">
+					<img src="images/portfolio/work3.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>
+
+				<article class="entry ill">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work4.jpg">
+					<img src="images/portfolio/work4.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>
+
+				<article class="entry video logo">
+					<a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
+                    <img src="images/portfolio/work5.jpg" alt="">
+					<span class="video-hover"></span>
+                    </a>
+				</article>
+
+				<article class="entry web print">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work6.jpg">
+					<img src="images/portfolio/work6.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>
+
+				<article class="entry video logo print">
+					<a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
+                    <img src="images/portfolio/work7.jpg" alt="">
+					<span class="video-hover"></span>
+                    </a>
+				</article>
+
+				<article class="entry ill logo video">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work2.jpg">
+					<img src="images/portfolio/work8.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article> 
+                   
+				<article class="entry video logo">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work9.jpg">
+					<img src="images/portfolio/work9.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>
+
+				<article class="entry web print">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work10.jpg">
+					<img src="images/portfolio/work10.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>
+
+				<article class="entry video logo print">
+					<a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
+                    <img src="images/portfolio/work11.jpg" alt="">
+					<span class="video-hover"></span>
+                    </a>
+				</article>
+
+				<article class="entry ill logo video">
+                    <a data-rel="prettyPhoto" href="images/portfolio/work12.jpg">
+					<img src="images/portfolio/work12.jpg" alt="">
+					<span class="magnifier"></span>
+                    </a>
+				</article>  
+
+
+			</div>
+
+		</section>
+            <!-- END DEMO -->
+                <div class="clearfix"></div>
+            </div>
+
+	</div>
 	
 		
 		
-		<br/>
-		<!--store items-->
-		<!--<div class="navtext">
-		<p>Take a look at our goods below, click on the images for more info and add the quantity you want and add to the cart!</p>
-		</div>-->
-		<br/>
-		<div id="dealscandy"> 
-				<div id="candy1">
-					<a href="theraven.html"><img src="theravenicon.png" alt="candypic1" width="150"  height="150"></a>
-					</div>
-					
-				<div id="candy2">
-					<a href="delivery.html"><img src="deliveryicon.png" alt="candypic2" width="150"  height="150"></a>
-					
-				</div>
-				<div id="candy3">
-				<a href="branding.html"><img src="FROSH.png" alt="candypic3" width="150"  height="150"></a>
-					
-					
-				
-				</div>
-				<div id="candy4">
-				<a href="writing.html"><img src="writing1.png" alt="candypic4" width="150" height="150"></a>
-				</div>
-		</div>
-		<div id="dealscandy2"> 
-				
-				<div id="candy5">
-					
-				</div>
-					
-				<div id="candy6">
-					<a href="candybox.html"><img src="candyboxicon.png" alt="candypic6" width="150" height="150"></a>
-					
-				</div>
-				<div id="candy7">
-					<a href="iat201.html"><img src="usability.png" alt="candypic7" width="150" height="150"></a>
-					
-				
-				</div>
-				<div id="candy8">
-					
-				
-				</div>
-			
-		</div>
-		<br/>
+<!-- DEMO JS -->
+<script>
+//Portfolio
+	var $container = $('.portfolio');
+	$container.isotope({
+		filter: '*',
+		animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false,
+		}
+	});
+
+	$('nav.primary ul a').click(function(){
+		var selector = $(this).attr('data-filter');
+		$container.isotope({
+			filter: selector,
+			animationOptions: {
+				duration: 750,
+				easing: 'linear',
+				queue: false,
+			}
+		});
+	  return false;
+	});
+
+	var $optionSets = $('nav.primary ul'),
+	       $optionLinks = $optionSets.find('a');
+	 
+	       $optionLinks.click(function(){
+	          var $this = $(this);
+		  // don't proceed if already selected
+		  if ( $this.hasClass('selected') ) {
+		      return false;
+		  }
+	   var $optionSet = $this.parents('nav.primary ul');
+	   $optionSet.find('.selected').removeClass('selected');
+	   $this.addClass('selected'); 
+	});
+</script>
+
+<script>
+//prettyPhoto 
+jQuery(document).ready(function(){
+	jQuery('a[data-gal]').each(function() {
+	    jQuery(this).attr('rel', jQuery(this).data('gal'));
+	});  	
+	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'light_square',slideshow:false,overlay_gallery: false,social_tools:false,deeplinking:false});
+}); 
+</script>
+
+<!-- END DEMO JS -->
+
+
+<!-- DONT COPY THESE LINES (These codes our demo codes. Please don't copy) -->        
+<!-- WDT Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40730469-1', 'webdesigntunes.com');
+  ga('send', 'pageview');
+
+</script>
+
+<div style="display:none;">
+<script id="_wau49x">var _wau = _wau || []; _wau.push(["small", "l2ejtaf1o4ra", "49x"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/small.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
+</div>
 		
 		
 
 		<!--footer-->
-		<div id="footer">
+		<!--<div id="footer">
 			<div id="footertext">
 			<p>&copy; Nicholas Singh 2013. Site designed and coded by Nicholas Singh.</p>
-			<p>nicksingh4@gmail.com | 778.838.3926</p>
+			<p>nicksingh4@gmail.com | 778.838.3926</p>-->
 
 			
 			</div>

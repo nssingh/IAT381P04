@@ -1,29 +1,22 @@
 
 body{
-	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
-	background: url(images/bg.jpg) no-repeat center center fixed;
+	/*background-image: url(images/ivory-off-white-paper-texture.jpg) no-repeat center center fixed;*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
 	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
-		background-image:url('white-paper-texture.jpg');
-	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;	
+		/*background-image:url('white-paper-texture.jpg');*/
+	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;
 	}
 
 
-h1   {
-	text-align: right;
-	color: #FFFFFF;
-	font-size:15px;
-	position: absolute; bottom: 0; right:0;
-}
 
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
 	width: 1000px;
-	height: 200px;/*changes the empty space inbetween the header and the mainmenu*/
+	height: 180px;/*changes the empty space inbetween the header and the mainmenu*/
 	margin: 0px auto;
 	background-color:#62BF7D;
 }
@@ -53,48 +46,89 @@ h1   {
 
 	}
 
+#socialmediaholder {
+	height: 40px;
+	width: 950px;/*shifts position of all social media icons(used to be 700*/
+	/*
+	background-color: black;*/
+	margin: 0px auto;
+	padding: 50px 20px 0px 50px;
+	position:absolute;
+}
 
+#socialmedia{
+	float: right;
+	height: 40px;
+	width: 300px;
+	margin: 0px auto;*/
+	border-style:none;
+	
+
+
+	
+	}
+	
+	.socialicons {
+	float:left;
+	height:50px;
+	width:50px;
+	margin-right:15px;
+	
+	}
+
+A:link {
+	text-decoration: none;
+	color:#FFF ;
+}
+A:visited { 
+	text-decoration: none;
+	color: #FFF;
+}
+A:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+li.socialicons :hover {
+	
+	
+	background: #00B39B;
+	
+	
+	padding-bottom:2px;
+	border-radius:20px;
+	
+	
+}
+div#socialmedia li{
+display: inline;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom:1px;
+	margin-left:0px;
+	padding-bottom:0;
+	border-style:none;
+	
+}
 
 img {
     vertical-align: middle;
     height: 100%;
 }
 
-#candyimage {
-	float: left;
-	width:600px;
-	height:100px;
-	/*margin: 0px auto;*/
-	/*padding: 10px 20px 10px 20px;
-	margin:50px, 100px, 50px, 0px;
-	border-top-left-radius:0em;
-	border-top-right-radius:1em;
-	border-bottom-right-radius:1em;
-	border-bottom-left-radius:0em;*/
-	background-image: url("nick-header.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-	position: relative;
-	vertical-align: middle;
-}
 
-   		  
-   		  
-
-h2 {
-	color: #FFFFFF;
-	font-size: 30px;
-}
-
-#mainmenu{
-	
+#navmenu{
+	float:right;
 	height: 50px;
-	width:665px;
-	margin: 0px auto;
-	border-style:none;
+	width:285px;
+	margin: 0px 210px 0px 0px;
+	padding: 0px 20px 10px 0px;/*moves the line for menu*/
+	color:#000;
+	border-bottom-style:solid;
+	border-width:1px;
 	
-	background-color:#6E6A6B;
+	border-color:rgba(151,149,149,.7)/*#979595*/;
+	color:#000;
 	/*text-indent:0em;
 	padding-top:0.5px;
 	padding-left:1em;
@@ -104,25 +138,113 @@ h2 {
 	-webkit-padding-left:1em;
 	-webkit-padding-right:1em;
 	-webkit-padding-bottom:0.5px;*/
-	border-radius:10px;
+	position:relative;
 }
 
-#menuhold {
-	width: 600px;
+#navhold {
+	width: 350px;
 	height: 20px;
 	/*
 	background-color: black;*/
-	margin: 15px 32.5px 15px 32.5px;
+	margin: 0px 32.5px 15px 32.5px;/*first margin moves the list items up and down*/
+	padding: 8px 0px 0px 0px;/*positions words to be in line with borderline*/
+	position: absolute;
+	color:#000;
+}
+
+#navhold ul{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	color:#000;
+	
+}
+
+#navmenu{
+	margin-top:2em;/*space between header and linebreak*/
+	color:#000;
+	}
+A:link {
+	text-decoration: none;
+	color:#000 ;
+	opacity: .9;
+}
+A:visited { 
+	text-decoration: none;
+	color: #000;
+}
+A:active {
+	text-decoration: none;
+	color: #000;
+}
+
+#navmenu li:hover {
+	border-bottom-style:solid;
+	border-color: #00B39B;
+		/*font-family:HelveticaNeue-Bold;*/
+
+	
+	
+}
+#navmenu li{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-right:25px;
+	border-style:none;
+		color:#000;
+		position:relative;
+
+	/*-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	*/
+	
+}
+
+.current{
+	
+	border-bottom-color: #000;
+	border-bottom-style:solid;
+	font-family:HelveticaNeue-Bold;
+	border-width:2px;
+	
+	}
+
+#mainmenu{
+	
+	height: 50px;
+	width:980px;
+	margin: 0px auto;
+	border-bottom-style:solid;
+		padding: 0px 20px 60px 0px;/*moves the line for menu*/
+
+	/*text-indent:0em;
+	padding-top:0.5px;
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:0.5px;
+	-webkit-padding-top:0.5px;
+	-webkit-padding-left:1em;
+	-webkit-padding-right:1em;
+	-webkit-padding-bottom:0.5px;*/
+}
+
+#menuhold {
+	width: 1000px;
+	height: 20px;
+	/*
+	background-color: black;*/
+	margin: 35px 32.5px 15px 32.5px;
 	position: absolute;
 }
 
 #menuhold ul{
 	list-style-type: none;
-	margin: 0px 0px 0px 0px;;
+	margin: 0px 0px 0px 0px;
 }
 
 #mainmenu{
-	margin-top:2em;
+	margin-top:4em;
 	}
 A:link {
 	text-decoration: none;
@@ -139,32 +261,33 @@ A:active {
 }
 
 #mainmenu li:hover {
-	background: #00B39B;
-	
-	border-radius:10px;
+border-bottom-style:solid;
+	border-color: #00B39B;
 }
 #mainmenu li{
-	display: inline;
+	/*display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:25px;
-	padding-bottom:1.1em;
-	padding-top:1em;
-	padding-left:0.5em;
+	
+	padding-left:60px;
 	padding-right:0.5em;
 	border-style:none;
 	-moz-transition: background-color, color .5s;
 	-webkit-transition:background-color, color .5s;
 	-o-transition: background-color, color, .5s;
-	transition: background-color, color, .5s;	
+	transition: background-color, color, .5s;	*/
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-right:25px;
+	border-style:none;
+		color:#000;
+		position:relative;
 	
 }
 
-.current{
-	
-	background: #00B39B;
-	border-radius:5px;
-	}
+
 	#mpop{
 	
 	background: #000;
@@ -176,92 +299,7 @@ A:active {
 
 /*above it is menu and header*/
 
-#viewchangeholder {
-	height: 40px;
-	width: 950px;/*shifts position of all social media icons(used to be 700*/
-	/*
-	background-color: black;*/
-	margin: 0px auto;
-	padding: 50px 20px 0px 50px;
-	position:absolute;
-}
 
-#viewchange{
-	float: right;
-	height: 40px;
-	width: 300px;
-	margin: 0px auto;*/
-	border-style:none;
-	
-
-	text-indent:0em;
-
-	
-	}
-	
-	.viewicons {
-	float:left;
-	height:50px;
-	width:50px;
-	margin-right:15px;
-	
-	}
-/*div#viewchange{
-	
-	border-style:none;
-	margin-bottom:0em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	font-size:60%;
-		border-radius:15px;
-
-}
-div#viewchange{
-	height:32px;
-	width:110px;
-	margin: 0px auto;
-	float:left;
-	}*/
-A:link {
-	text-decoration: none;
-	color:#FFF ;
-}
-A:visited { 
-	text-decoration: none;
-	color: #FFF;
-}
-A:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-li.viewicons :hover {
-	
-	
-	background: #00B39B;
-	
-	
-	padding-bottom:2px;
-	border-radius:20px;
-	
-	
-}
-div#viewchange li{
-display: inline;
-	list-style-type: none;
-	margin-top: 0px;
-	margin-bottom:1px;
-	margin-left:0px;
-	padding-bottom:0;
-	border-style:none;
-	
-}
 
 
 /*.navtext{
@@ -299,273 +337,124 @@ display: inline;
 	}
 
 
-#dealscandy {
-	width: 700px;
-	height:200px;
-	margin: 0px auto;
-	/*background-color: #575254;*/ /* used to text where is box */
+nav.primary {
+	width:auto;
+	margin:30px auto;
+	display:table;
 }
 
-#candy1 {
+nav.primary ul li  {
 	float:left;
-	width: 150px;
-	height: 150px;
-	/*
-	background-color: #000000;*/
-	margin: 10.5px;
-	/*border: 2px solid;
-	border-color: #F75A93; 
-	border-radius:25px;
-	background-image: url("candy1.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+	list-style:none;
 }
 
-#candy1 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy1 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
+nav.primary ul li a {
+	height:39px;
+	display:block;
+	font-size:15px;
+	color:#000;
+	padding:0 10px;
+	text-decoration:none;
+	line-height:39px;
+}
+nav.primary ul li a:hover {/*added by nick*/
+	/*height:39px;
+	display:block;
+	font-size:15px;
+	color:#000;
+	padding:0 10px;
+	text-decoration:none;
+	line-height:39px;*/
+	border-bottom: 3px solid #62BF7D;/*main nav bar color*/
+	color:#62BF7D;/*changes hover text color from black to green*/
 }
 
+nav.primary li a.selected {
+    border-bottom: 3px solid #62BF7D;/*main nav bar color*/
+    font-family: 'HelveticaNeue';
+}
 
+.main {
+	padding:0;
+	margin:0;
+	display:block;
+}
 
-
-#candy2 {
+.entry {
+	position:relative;
 	float:left;
-	width: 150px;
-	height: 150px;
-	/*
-	background-color: #000000;
-	*/
-	margin: 10.5px;
-	/*border: 2px solid;
-	border-color: #F75A93; 
-	border-radius:25px;
-	background-image: url("candy2.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+	margin:10px;
+	cursor:pointer;
+	width:225px;
+	height:225px;
+	padding:0;
 }
 
-#candy2 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy2 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
+.portfolio { margin:0; }
+
+.magnifier {
+	background:rgba(237,49,49,.7) url(images/magnifier.png) no-repeat center;
+	position:absolute;
+	top:10px;
+	left:10px;
+	bottom:10px;
+	right:10px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.video-hover {
+	background:rgba(0,0,0,.7) url(test.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
 }
 
-#candy3 {
-	float:left;
-	width: 150px;
-	height: 150px;
-	/*background-color: #000000;*/
-	margin: 10.5px;
-	
-	/*background-image: url("candy3.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+.entry:hover .video-hover,
+.entry:hover .magnifier { opacity:1; }
+
+img {
+	max-width:100%;
 }
 
-#candy3 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy3 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
+.isotope-item {
+  z-index: 2;
 }
 
-
-
-#candy4 {
-	float:left;
-	width: 150px;
-	height: 150px;
-	/*background-color: #000000;*/
-	margin: 10.5px;
-	/*border: 2px solid;
-	border-color: #F75A93; 
-	border-radius:25px;
-	background-image: url("candy4.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
 }
 
-#candy4 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy4 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
-}
-#dealscandy2 {
-	width: 700px;
-	height:200px;
-	margin: 0px auto;
-	/*background-color: #575254;*/ /* used to text where is box */
-}
-#candy5 {
-	float:left;
-	width: 150px;
-	height: 150px;
-	/*
-	background-color: #000000;*/
-	margin: 10.5px;
-	/*border: 2px solid;
-	border-color: #F75A93; 
-	border-radius:25px;
-	background-image: url("candy1.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+.isotope,
+.isotope .isotope-item {
+-webkit-transition-duration: 0.8s;
+   -moz-transition-duration: 0.8s;
+        transition-duration: 0.8s;
 }
 
-
-#candy5 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy5 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
+.isotope {
+-webkit-transition-property: height, width;
+   -moz-transition-property: height, width;
+        transition-property: height, width;
 }
 
-
-
-#candy6 {
-	float:left;
-	width: 150px;
-	height: 150px;
-	/*
-	background-color: #000000;
-	*/
-	margin: 10.5px;
-	/*border: 2px solid;
-	border-color: #F75A93; 
-	border-radius:25px;
-	background-image: url("candy2.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
+.isotope .isotope-item {
+-webkit-transition-property: -webkit-transform, opacity;
+   -moz-transition-property:    -moz-transform, opacity;
+        transition-property:         transform, opacity;
 }
-
-#candy6 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy6 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
-}
-
-#candy7 {
-	float:left;
-	width: 150px;
-	height: 150px;
-	/*background-color: #000000;*/
-	margin: 10.5px;
-	
-	/*background-image: url("candy3.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
-}
-
-#candy7 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy7 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
-}
-
-#candy8 {
-	float:left;
-	width: 150px;
-	height: 150px;
-	/*background-color: #000000;*/
-	margin: 10.5px;
-	/*border: 2px solid;
-	border-color: #F75A93; 
-	border-radius:25px;
-	background-image: url("candy4.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
-}
-
-#candy8 img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color:rgba(0,0,0,0.5);
-	}
-#candy8 :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #00B39B; 
-	border-radius:5px;
-}
-
-
-
-
-#footer {
-	width:1000px;
-	height: 70px;
-	margin: 0px auto;
-	background-color:#6E6A6B;	
-	position: relative;
-	vertical-align: middle;
-	background-color:#62BF7D;
-}
-
 
 
 #footertext {
@@ -578,5 +467,6 @@ display: inline;
 background-color:#62BF7D;
 	color:#fff;
 	font-size:12px;
+	
 	}
 
