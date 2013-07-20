@@ -1,0 +1,582 @@
+
+body{
+	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
+	background: url(images/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
+		background-image:url('white-paper-texture.jpg');
+	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;	
+	}
+
+
+h1   {
+	text-align: right;
+	color: #FFFFFF;
+	font-size:15px;
+	position: absolute; bottom: 0; right:0;
+}
+
+
+
+#titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
+	width: 1000px;
+	height: 200px;/*changes the empty space inbetween the header and the mainmenu*/
+	margin: 0px auto;
+	background-color:#62BF7D;
+}
+
+#nstitle{
+	width:1000px;/*stops the title from breaking when page size changes*/
+	font-size: 60px;
+	color:#fff;
+	margin: 0px auto;
+	padding: 50px 20px 0px 50px;
+	height:100px;
+	position:absolute;/*allows elements to move freely in container*/
+	font-family: HelveticaNeue-Light;
+
+
+	}
+#slogan{
+	width:1000px;
+	font-size: 20px;
+	color:rgba(255,255,255,.7);
+	margin: 0px 0px 0px 0px;
+	padding: 115px 20px 0px 50px;
+
+	position:absolute;/*allows elements to move freely within container*/
+	font-family: HelveticaNeue-Light;
+
+
+	}
+
+
+
+img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+#candyimage {
+	float: left;
+	width:600px;
+	height:100px;
+	/*margin: 0px auto;*/
+	/*padding: 10px 20px 10px 20px;
+	margin:50px, 100px, 50px, 0px;
+	border-top-left-radius:0em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:0em;*/
+	background-image: url("nick-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	position: relative;
+	vertical-align: middle;
+}
+
+   		  
+   		  
+
+h2 {
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+#mainmenu{
+	
+	height: 50px;
+	width:665px;
+	margin: 0px auto;
+	border-style:none;
+	
+	background-color:#6E6A6B;
+	/*text-indent:0em;
+	padding-top:0.5px;
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:0.5px;
+	-webkit-padding-top:0.5px;
+	-webkit-padding-left:1em;
+	-webkit-padding-right:1em;
+	-webkit-padding-bottom:0.5px;*/
+	border-radius:10px;
+}
+
+#menuhold {
+	width: 600px;
+	height: 20px;
+	/*
+	background-color: black;*/
+	margin: 15px 32.5px 15px 32.5px;
+	position: absolute;
+}
+
+#menuhold ul{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;;
+}
+
+#mainmenu{
+	margin-top:2em;
+	}
+A:link {
+	text-decoration: none;
+	color:#FFF ;
+	opacity: .9;
+}
+A:visited { 
+	text-decoration: none;
+	color: #FFF;
+}
+A:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#mainmenu li:hover {
+	background: #00B39B;
+	
+	border-radius:10px;
+}
+#mainmenu li{
+	display: inline;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-right:25px;
+	padding-bottom:1.1em;
+	padding-top:1em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	border-style:none;
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
+	
+}
+
+.current{
+	
+	background: #00B39B;
+	border-radius:5px;
+	}
+	#mpop{
+	
+	background: #000;
+	border-radius:5px;
+	}
+
+
+
+
+/*above it is menu and header*/
+
+#viewchangeholder {
+	height: 40px;
+	width: 950px;/*shifts position of all social media icons(used to be 700*/
+	/*
+	background-color: black;*/
+	margin: 0px auto;
+	padding: 50px 20px 0px 50px;
+	position:absolute;
+}
+
+#viewchange{
+	float: right;
+	height: 40px;
+	width: 300px;
+	margin: 0px auto;*/
+	border-style:none;
+	
+
+	text-indent:0em;
+
+	
+	}
+	
+	.viewicons {
+	float:left;
+	height:50px;
+	width:50px;
+	margin-right:15px;
+	
+	}
+/*div#viewchange{
+	
+	border-style:none;
+	margin-bottom:0em;
+	margin-left:33.25em;
+	margin-top:2em;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	text-indent:0em;
+	padding-top:0.04px;
+	padding-left:0em;
+	padding-right:1em;
+	padding-bottom:0px;
+	font-size:60%;
+		border-radius:15px;
+
+}
+div#viewchange{
+	height:32px;
+	width:110px;
+	margin: 0px auto;
+	float:left;
+	}*/
+A:link {
+	text-decoration: none;
+	color:#FFF ;
+}
+A:visited { 
+	text-decoration: none;
+	color: #FFF;
+}
+A:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+li.viewicons :hover {
+	
+	
+	background: #00B39B;
+	
+	
+	padding-bottom:2px;
+	border-radius:20px;
+	
+	
+}
+div#viewchange li{
+display: inline;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom:1px;
+	margin-left:0px;
+	padding-bottom:0;
+	border-style:none;
+	
+}
+
+
+/*.navtext{
+	
+	height: 40px;
+	width: 700px;
+	padding-bottom:5px;
+	margin: 0px auto;
+	color: #6E6A6B;
+	font-size:13px;
+	border-top:solid;
+	border-bottom:solid;
+	border-width:1px;
+	
+	}*/
+.navtext{
+	
+	height: 40px;
+	width: 650px;
+	margin: 0px auto;
+	color: #6E6A6B;
+	font-size:50px;
+	
+	
+	}
+.subtext{
+	
+	height: 40px;
+	width: 650px;
+	margin: 0px auto;
+	color: #00B39B;
+	font-size:20px;
+	
+	
+	}
+
+
+#dealscandy {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
+}
+
+#candy1 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy1 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy1 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+
+
+
+#candy2 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;
+	*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy2 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy2 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+#candy3 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	
+	/*background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy3 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy3 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+
+
+#candy4 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy4 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy4 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+#dealscandy2 {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
+}
+#candy5 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+
+#candy5 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy5 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+
+
+#candy6 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;
+	*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy6 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy6 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+#candy7 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	
+	/*background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy7 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy7 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+#candy8 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy8 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy8 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #00B39B; 
+	border-radius:5px;
+}
+
+
+
+
+#footer {
+	width:1000px;
+	height: 70px;
+	margin: 0px auto;
+	background-color:#6E6A6B;	
+	position: relative;
+	vertical-align: middle;
+	background-color:#62BF7D;
+}
+
+
+
+#footertext {
+	display: table-cell;
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
+background-color:#62BF7D;
+	color:#fff;
+	font-size:12px;
+	}
+
