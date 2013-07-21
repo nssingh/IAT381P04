@@ -206,17 +206,17 @@ padding-left:210px;
 padding-top:20px;
 position:relative;
 }
+
 #aboutarea {
-	width: 900px;
-	height: 1250px;
+	width: 950px;
+	height: 350px;
 
 	margin: 0px auto;
-	border-radius:15px;
 }
 
 
 #about {
-	width: 900px;
+	width: 950px;
 	height: 170px;
 	margin: 0px auto;
 
@@ -231,18 +231,11 @@ position:relative;
 	}
 
 
-#aboutimage {
-	float: left;
-	width: 150px;
-	height: 200px;
-	
-	position: relative;
-	margin: 0px 30px 0px 0px;/*100px for the first number moves image up or down*/
-}
+
 
 
 #abouttext	{
-	float: right;
+	float: left;
 	width: 900px;
 	height: 100px;
 		color: #000;
@@ -250,26 +243,23 @@ position:relative;
 		font-family: HelveticaNeue-Light;
 
 	position: relative;
-	padding: 0px;
+	padding:0px;
 	margin: 10px 10px 0px 0px;
 }
 
-#froshlink a{
-color:#000;
+#subtitle {
+	font-size: 30px;
 }
-#froshlink a:hover{
-color:#62BF7D;
-}
-
-.subtitle {
-	font-size: 20px;
-	font-family: HelveticaNeue-UltraLight;
+.stuff {
+	font-size: 12px;
+	font-family: HelveticaNeue;
 	
-}
+	}
+
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 800px 0px 0px 200px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 0px 0px 0px 200px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;

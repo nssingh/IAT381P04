@@ -85,7 +85,7 @@ A:active {
 	color: #FFF;
 }
 
-li.socialicons :hover {
+/*li.socialicons :hover {
 	
 	
 	background: #00B39B;
@@ -95,7 +95,7 @@ li.socialicons :hover {
 	border-radius:20px;
 	
 	
-}
+}*/
 div#socialmedia li{
 display: inline;
 	list-style-type: none;
@@ -140,7 +140,7 @@ img {
 	height: 40px;
 	width: 900px;
 	margin: 0px auto;
-		padding: 10px 20px 0px 50px;
+		padding: 10px 50px 0px 50px;
 
 	color: #6E6A6B;
 	font-size:35px;
@@ -153,7 +153,7 @@ img {
 	height: 40px;/*changes the space between the text and the main menu below*/
 	width: 900px;
 	margin: 0px auto;
-	padding: 10px 20px 0px 50px;
+	padding: 10px 50px 0px 50px;
 
 	color: #62BF7D;
 	font-size:20px;
@@ -309,90 +309,6 @@ img {
 	vertical-align: middle;
 	background-color:#62BF7D;
 }
-#footertext {
-	display: table-cell;
-	width: 1000px;
-	height: 70px;
-	position: relative;
-	vertical-align:middle;
-	text-align: center;
-background-color:#62BF7D;
-	color:#fff;
-	font-size:12px;
-	
-	}
-
-ight:225px;
-	padding:0;
-}
-
-.portfolio { margin:0; }
-
-.magnifier {
-	background:rgba(237,49,49,.7) url(images/magnifier.png) no-repeat center;
-	position:absolute;
-	top:10px;
-	left:10px;
-	bottom:10px;
-	right:10px;
-	opacity:0;
-	-webkit-transition:all .3s ease-in-out;
-	-moz-transition:all .3s ease-in-out;
-	-ms-transition:all .3s ease-in-out;
-	-o-transition:all .3s ease-in-out;
-	transition:all .3s ease-in-out;
-}
-.video-hover {
-	background:rgba(0,0,0,.7) url(test.png) no-repeat center;/*added the image text when hover over*/
-	position:absolute;
-	top:0px;/*all of these values change the hover border*/
-	left:0px;
-	bottom:0px;
-	right:0px;
-	opacity:0;
-	-webkit-transition:all .3s ease-in-out;
-	-moz-transition:all .3s ease-in-out;
-	-ms-transition:all .3s ease-in-out;
-	-o-transition:all .3s ease-in-out;
-	transition:all .3s ease-in-out;
-}
-
-.entry:hover .video-hover,
-.entry:hover .magnifier { opacity:1; }
-
-img {
-	max-width:100%;
-}
-
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-.isotope,
-.isotope .isotope-item {
--webkit-transition-duration: 0.8s;
-   -moz-transition-duration: 0.8s;
-        transition-duration: 0.8s;
-}
-
-.isotope {
--webkit-transition-property: height, width;
-   -moz-transition-property: height, width;
-        transition-property: height, width;
-}
-
-.isotope .isotope-item {
--webkit-transition-property: -webkit-transform, opacity;
-   -moz-transition-property:    -moz-transform, opacity;
-        transition-property:         transform, opacity;
-}
-
-
 #footertext {
 	display: table-cell;
 	width: 1000px;
