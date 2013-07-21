@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="css/reset.css" />
+		<!--<link rel="stylesheet" href="css/reset.css" />--> <!--NOTE: commented out because it gave 16 errors and doesnt seem to effect anything-->
 		<link rel="stylesheet" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
 		
@@ -48,15 +48,17 @@
 		
 		
 		</div>
+		<div class="subcontainer">
 		<div class="navtext">
-				<p>WELCOME</p>
+				<p>A Collection of My Work</p>
 		</div>
 		<div class="subtext">
-				<p>A Collection of My Work</p>
+				<p>I am a multidisciplinary communication designer + marketer.</p>
+		</div>
 		</div>
 		
 			<!-- nav bar-->
-		<div id="navmenu">
+		<!--<div id="navmenu">
 			<div id="navhold">
 				<nav>
 					<ul>
@@ -68,8 +70,9 @@
 					</ul>
 				</nav>
 			</div>
-		</div>	
-		<br/>
+		</div>	-->
+		
+		
 		<!--main nav-->
 		<!--<div id="mainmenu">
 			<div id="menuhold">
@@ -90,7 +93,7 @@
 		
 <!-- WDT top bar -->
 		
-		</div><!--/ WDT top bar -->
+		<!--/ WDT top bar -->
         
         
 	<div id="wrapper">
@@ -100,12 +103,16 @@
             <!-- DEMO -->
                  <nav class="primary clearfix">
                     <ul>
+                        
+                        <li><a href="#" data-filter=".about">About</a></li>
+                        <li><a href="#" data-filter=".contact">Contact</a></li>
                         <li><a href="#" class="selected" data-filter="*">All</a></li>
-                        <li><a href="#" data-filter=".web">Video</a></li>
+                        <li><a href="#" data-filter=".video">Video</a></li>
                         <li><a href="#" data-filter=".ill">Design</a></li>
                         <li><a href="#" data-filter=".logo">Branding</a></li>
-                        <li><a href="#" data-filter=".video">Website</a></li>
+                        <li><a href="#" data-filter=".web">Website</a></li>
                         <li><a href="#" data-filter=".print">Writing</a></li>
+                    
                     </ul>
                 </nav>
 
@@ -121,30 +128,30 @@
                     </a>
 				</article>
 
-				<article class="entry web">
+				<article class="entry video">
                     <a data-rel="prettyPhoto" href="images/portfolio/work2.jpg">
-					<img src="images/portfolio/work2.jpg" alt="">
-					<span class="magnifier"></span>
+					<img src="delivery.png" alt="">
+					<span class="video-hover2"></span>
                     </a>
 				</article>
 
-				<article class="entry print">
+				<article class="entry logo web ill print">
                     <a data-rel="prettyPhoto" href="images/portfolio/work3.jpg">
-					<img src="images/portfolio/work3.jpg" alt="">
+					<img src="frosh.png" alt="">
 					<span class="magnifier"></span>
                     </a>
 				</article>
 
-				<article class="entry ill">
+				<article class="entry ill web">
                     <a data-rel="prettyPhoto" href="images/portfolio/work4.jpg">
-					<img src="images/portfolio/work4.jpg" alt="">
+					<img src="candybox.png" alt="">
 					<span class="magnifier"></span>
                     </a>
 				</article>
 
-				<article class="entry video logo">
+				<article class="entry ill web print">
 					<a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
-                    <img src="images/portfolio/work5.jpg" alt="">
+                    <img src="reddit.png" alt="">
 					<span class="video-hover"></span>
                     </a>
 				</article>
@@ -156,21 +163,21 @@
                     </a>
 				</article>
 
-				<article class="entry video logo print">
+				<article class="entry about">
 					<a data-rel="prettyPhoto" href="http://vimeo.com/34266952">
                     <img src="images/portfolio/work7.jpg" alt="">
 					<span class="video-hover"></span>
                     </a>
 				</article>
 
-				<article class="entry ill logo video">
+				<article class="entry contact">
                     <a data-rel="prettyPhoto" href="images/portfolio/work2.jpg">
 					<img src="images/portfolio/work8.jpg" alt="">
 					<span class="magnifier"></span>
                     </a>
 				</article> 
                    
-				<article class="entry video logo">
+				<!--<article class="entry video logo">
                     <a data-rel="prettyPhoto" href="images/portfolio/work9.jpg">
 					<img src="images/portfolio/work9.jpg" alt="">
 					<span class="magnifier"></span>
@@ -196,7 +203,7 @@
 					<img src="images/portfolio/work12.jpg" alt="">
 					<span class="magnifier"></span>
                     </a>
-				</article>  
+				</article>  -->
 
 
 			</div>
@@ -208,7 +215,13 @@
 
 	</div>
 	
-		
+		<!--footer-->
+		<div id="footer">
+			<div id="footertext">
+			<p>&copy; Nicholas Singh 2013. Site designed and coded by Nicholas Singh.</p>
+			<p>nicksingh4@gmail.com | 778.838.3926</p>
+			</div>
+		</div>
 		
 <!-- DEMO JS -->
 <script>
@@ -287,15 +300,9 @@ document.getElementsByTagName("head")[0].appendChild(s);
 		
 		
 
-		<!--footer-->
-		<!--<div id="footer">
-			<div id="footertext">
-			<p>&copy; Nicholas Singh 2013. Site designed and coded by Nicholas Singh.</p>
-			<p>nicksingh4@gmail.com | 778.838.3926</p>-->
-
+		
 			
-			</div>
-		</div>
+		
 	</body>
 
 </html>

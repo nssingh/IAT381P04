@@ -1,12 +1,12 @@
 
 body{
-	/*background-image: url(images/ivory-off-white-paper-texture.jpg) no-repeat center center fixed;*/
+	background-image: url(white.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
 	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
-		/*background-image:url('white-paper-texture.jpg');*/
+		/*background-image:url('white.jpg');*/
 	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;
 	}
 
@@ -60,13 +60,9 @@ body{
 	float: right;
 	height: 40px;
 	width: 300px;
-	margin: 0px auto;*/
+	margin: 0px auto;
 	border-style:none;
-	
-
-
-	
-	}
+}
 	
 	.socialicons {
 	float:left;
@@ -117,187 +113,11 @@ img {
 }
 
 
-#navmenu{
-	float:right;
-	height: 50px;
-	width:285px;
-	margin: 0px 210px 0px 0px;
-	padding: 0px 20px 10px 0px;/*moves the line for menu*/
-	color:#000;
-	border-bottom-style:solid;
-	border-width:1px;
-	
-	border-color:rgba(151,149,149,.7)/*#979595*/;
-	color:#000;
-	/*text-indent:0em;
-	padding-top:0.5px;
-	padding-left:1em;
-	padding-right:1em;
-	padding-bottom:0.5px;
-	-webkit-padding-top:0.5px;
-	-webkit-padding-left:1em;
-	-webkit-padding-right:1em;
-	-webkit-padding-bottom:0.5px;*/
-	position:relative;
-}
-
-#navhold {
-	width: 350px;
-	height: 20px;
-	/*
-	background-color: black;*/
-	margin: 0px 32.5px 15px 32.5px;/*first margin moves the list items up and down*/
-	padding: 8px 0px 0px 0px;/*positions words to be in line with borderline*/
-	position: absolute;
-	color:#000;
-}
-
-#navhold ul{
-	list-style-type: none;
-	margin: 0px 0px 0px 0px;
-	color:#000;
-	
-}
-
-#navmenu{
-	margin-top:2em;/*space between header and linebreak*/
-	color:#000;
-	}
-A:link {
-	text-decoration: none;
-	color:#000 ;
-	opacity: .9;
-}
-A:visited { 
-	text-decoration: none;
-	color: #000;
-}
-A:active {
-	text-decoration: none;
-	color: #000;
-}
-
-#navmenu li:hover {
-	border-bottom-style:solid;
-	border-color: #00B39B;
-		/*font-family:HelveticaNeue-Bold;*/
-
-	
-	
-}
-#navmenu li{
-	display: inline-block;
-	list-style-type: none;
-	margin-top: 2em;
-	margin-right:25px;
-	border-style:none;
-		color:#000;
-		position:relative;
-
-	/*-moz-transition: background-color, color .5s;
-	-webkit-transition:background-color, color .5s;
-	-o-transition: background-color, color, .5s;
-	transition: background-color, color, .5s;	*/
-	
-}
-
-.current{
-	
-	border-bottom-color: #000;
-	border-bottom-style:solid;
-	font-family:HelveticaNeue-Bold;
-	border-width:2px;
-	
-	}
-
-#mainmenu{
-	
-	height: 50px;
-	width:980px;
-	margin: 0px auto;
-	border-bottom-style:solid;
-		padding: 0px 20px 60px 0px;/*moves the line for menu*/
-
-	/*text-indent:0em;
-	padding-top:0.5px;
-	padding-left:1em;
-	padding-right:1em;
-	padding-bottom:0.5px;
-	-webkit-padding-top:0.5px;
-	-webkit-padding-left:1em;
-	-webkit-padding-right:1em;
-	-webkit-padding-bottom:0.5px;*/
-}
-
-#menuhold {
-	width: 1000px;
-	height: 20px;
-	/*
-	background-color: black;*/
-	margin: 35px 32.5px 15px 32.5px;
-	position: absolute;
-}
-
-#menuhold ul{
-	list-style-type: none;
-	margin: 0px 0px 0px 0px;
-}
-
-#mainmenu{
-	margin-top:4em;
-	}
-A:link {
-	text-decoration: none;
-	color:#FFF ;
-	opacity: .9;
-}
-A:visited { 
-	text-decoration: none;
-	color: #FFF;
-}
-A:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-#mainmenu li:hover {
-border-bottom-style:solid;
-	border-color: #00B39B;
-}
-#mainmenu li{
-	/*display: inline;
-	list-style-type: none;
-	margin-top: 2em;
-	margin-right:25px;
-	
-	padding-left:60px;
-	padding-right:0.5em;
-	border-style:none;
-	-moz-transition: background-color, color .5s;
-	-webkit-transition:background-color, color .5s;
-	-o-transition: background-color, color, .5s;
-	transition: background-color, color, .5s;	*/
-	display: inline-block;
-	list-style-type: none;
-	margin-top: 2em;
-	margin-right:25px;
-	border-style:none;
-		color:#000;
-		position:relative;
-	
-}
-
-
-	#mpop{
-	
-	background: #000;
-	border-radius:5px;
-	}
 
 
 
 
-/*above it is menu and header*/
+
 
 
 
@@ -318,20 +138,26 @@ border-bottom-style:solid;
 .navtext{
 	
 	height: 40px;
-	width: 650px;
+	width: 900px;
 	margin: 0px auto;
+		padding: 10px 20px 0px 50px;
+
 	color: #6E6A6B;
-	font-size:50px;
+	font-size:35px;
+	position:relative;
 	
 	
 	}
 .subtext{
 	
-	height: 40px;
-	width: 650px;
+	height: 40px;/*changes the space between the text and the main menu below*/
+	width: 900px;
 	margin: 0px auto;
-	color: #00B39B;
+	padding: 10px 20px 0px 50px;
+
+	color: #62BF7D;
 	font-size:20px;
+	position:relative;
 	
 	
 	}
@@ -339,7 +165,7 @@ border-bottom-style:solid;
 
 nav.primary {
 	width:auto;
-	margin:30px auto;
+	margin:30px auto;/*changes the space between the nav bar and boxes below*/
 	display:table;
 }
 
@@ -351,9 +177,9 @@ nav.primary ul li  {
 nav.primary ul li a {
 	height:39px;
 	display:block;
-	font-size:15px;
-	color:#000;
-	padding:0 10px;
+	font-size:20px;/*changes the font size of main menu*/
+	color:#6E6A6B;
+	padding:0 20px;/*changed the space between the words and allows for mobile padding to be good used to be 10px*/
 	text-decoration:none;
 	line-height:39px;
 }
@@ -374,6 +200,8 @@ nav.primary li a.selected {
     font-family: 'HelveticaNeue';
 }
 
+
+
 .main {
 	padding:0;
 	margin:0;
@@ -383,10 +211,118 @@ nav.primary li a.selected {
 .entry {
 	position:relative;
 	float:left;
-	margin:10px;
+	margin:5px;/*changes spacing in between the display boxes used to be 10px*/
 	cursor:pointer;
-	width:225px;
-	height:225px;
+	width:235px;/*originally 225px, if 248px with 0 margin, will fit the border perfectly*/
+	height:235px;
+	padding:0;
+}
+
+.portfolio { margin:0; }
+
+.magnifier {
+	background:rgba(237,49,49,.7) url(images/magnifier.png) no-repeat center;
+	position:absolute;
+	top:10px;
+	left:10px;
+	bottom:10px;
+	right:10px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.video-hover {
+	background:rgba(0,0,0,.7) url(theraventext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+
+.video-hover2 {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(test.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+
+.entry:hover .video-hover,
+.entry:hover .video-hover2,/*hover 2 added by nick*/
+.entry:hover .magnifier { opacity:1; }
+
+img {
+	max-width:100%;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  /*pointer-events: none;*//*NOTE: commented out because gave error in css*/
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+-webkit-transition-duration: 0.8s;
+   -moz-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+}
+
+.isotope {
+-webkit-transition-property: height, width;
+   -moz-transition-property: height, width;
+        transition-property: height, width;
+}
+
+.isotope .isotope-item {
+-webkit-transition-property: -webkit-transform, opacity;
+   -moz-transition-property:    -moz-transform, opacity;
+        transition-property:         transform, opacity;
+}
+
+#footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
+	width:1000px;
+	height: 70px;
+	margin: 800px 0px 0px 200px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	background-color:#6E6A6B;	
+	position: relative;
+	vertical-align: middle;
+	background-color:#62BF7D;
+}
+#footertext {
+	display: table-cell;
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
+background-color:#62BF7D;
+	color:#fff;
+	font-size:12px;
+	
+	}
+
+ight:225px;
 	padding:0;
 }
 
