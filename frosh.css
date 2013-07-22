@@ -202,12 +202,11 @@ img {
 width:1000px;
 height:300px;
 margin 0px auto;
-padding-left:210px;
 padding-top:20px;
 position:relative;
 }
 #aboutarea {
-	width: 900px;
+	width: 1000px;
 	height: 1250px;
 
 	margin: 0px auto;
@@ -269,7 +268,7 @@ color:#62BF7D;
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 800px 0px 0px 200px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 1000px 0px 0px 200px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;
