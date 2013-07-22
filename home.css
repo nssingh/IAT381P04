@@ -250,7 +250,7 @@ nav.primary li a.selected {
 }
 
 .video-hover2 {/*hover 2 added by nick*/
-	background:rgba(0,0,0,.7) url(test.png) no-repeat center;/*added the image text when hover over*/
+	background:rgba(0,0,0,.7) url(deliverytext.png) no-repeat center;/*added the image text when hover over*/
 	position:absolute;
 	top:0px;/*all of these values change the hover border*/
 	left:0px;
@@ -263,7 +263,96 @@ nav.primary li a.selected {
 	-o-transition:all .3s ease-in-out;
 	transition:all .3s ease-in-out;
 }
-
+.about-hover {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(abouttext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.frosh-hover {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(froshtext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.contact-hover {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(contacttext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.writing-hover {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(writingtext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.web-hover {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(candyboxtext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.reddit-hover {/*hover 2 added by nick*/
+	background:rgba(0,0,0,.7) url(reddittext.png) no-repeat center;/*added the image text when hover over*/
+	position:absolute;
+	top:0px;/*all of these values change the hover border*/
+	left:0px;
+	bottom:0px;
+	right:0px;
+	opacity:0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.entry:hover .about-hover,
+.entry:hover .reddit-hover,
+.entry:hover .contact-hover,
+.entry:hover .frosh-hover,
+.entry:hover .web-hover,
+.entry:hover .writing-hover,
 .entry:hover .video-hover,
 .entry:hover .video-hover2,/*hover 2 added by nick*/
 .entry:hover .magnifier { opacity:1; }
