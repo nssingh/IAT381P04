@@ -10,7 +10,7 @@ html {
 body {
 	min-height: 100%;
 	/*font-family: 'Arial', sans-serif;*/
-	font-family: 'HelveticaNeue-Ultralight', sans-serif;/*added by nick*/
+	font-family: 'HelveticaNeue-Ultralight','HelveticaNeue','Arial', sans-serif;/*added by nick*/
 
 	font-weight: 400;
 	height:100%;

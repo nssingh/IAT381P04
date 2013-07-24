@@ -201,7 +201,7 @@ img {
 #nickheader{
 width:1000px;
 height:300px;
-margin 0px auto;
+margin: 0px auto;
 padding-top:20px;
 position:relative;
 }
@@ -258,7 +258,7 @@ position:relative;
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 2750px 0px 0px 200px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 2550px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;
