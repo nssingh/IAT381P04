@@ -5,7 +5,7 @@ html {
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { *zoom: 1;}
+/*.clearfix { *zoom: 1;}*//*commented out because giving errors, dont think it affects anything*/
 
 body {
 	min-height: 100%;
@@ -14,7 +14,7 @@ body {
 
 	font-weight: 400;
 	height:100%;
-	min-height:1200px;
+	min-height:100%;/*Changes the height of the home page!*//*If 100% instead of 900px it does the same thing but better?*/
 	background: #fff;
 	
 	/*-webkit-font-smoothing: antialiased; Got rid of the shadowed background
