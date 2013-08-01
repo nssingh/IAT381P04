@@ -1,64 +1,61 @@
-
 body{
 	/*background-image: url(white.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;*/
-	/*font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;*/
+	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
 		/*background-image:url('white.jpg');*/
-	font: 1em 'HelveticaNeue-UltraLight', 'Helvetica', 'Arial', sans-serif;
-	font-family: 'Open Sans', sans-serif;
+	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;
 	}
 
 
 
 
-
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
-	width: 1000px;
-	height: 180px;/*changes the empty space inbetween the header and the mainmenu*/
+	width: 520px;
+	height: 280px;/*changes the empty space inbetween the header and the mainmenu*/
 	margin: 0px auto;
 	background-color:#62BF7D;
 }
 
 #nstitle{
-	width:1000px;/*stops the title from breaking when page size changes*/
+	width:400px;/*stops the title from breaking when page size changes*/
 	font-size: 60px;
 	color:#fff;
 	margin: 0px auto;
 	padding: 50px 20px 0px 50px;
 	height:100px;
 	position:absolute;/*allows elements to move freely in container*/
-	font-family: 'HelveticaNeue-Light', 'Open Sans'; font-weight:400;
+	font-family: 'HelveticaNeue-Light';
 
 
 	}
 #slogan{
-	width:1000px;
+	width:400px;
 	font-size: 20px;
 	color:rgba(255,255,255,.7);
 	margin: 0px 0px 0px 0px;
 	padding: 115px 20px 0px 50px;
 
 	position:absolute;/*allows elements to move freely within container*/
-	font-family: 'HelveticaNeue-Light','Open Sans'; font-weight:300;
+	font-family: 'HelveticaNeue-Light';
 
 
 	}
 
 #socialmediaholder {
 	height: 40px;
-	width: 950px;/*shifts position of all social media icons(used to be 700*/
+	width: 200px;/*shifts position of all social media icons(used to be 700*/
 	/*
 	background-color: black;*/
 	margin: 0px auto;
-	padding: 50px 20px 0px 50px;
+	padding: 160px 20px 0px 100px;
 	position:absolute;
 }
 
 #socialmedia{
-	float: right;
+	float: left;
 	height: 40px;
 	width: 300px;
 	margin: 0px auto;
@@ -108,8 +105,6 @@ display: inline;
 	
 }
 
-
-
 img {
     vertical-align: middle;
     height: 100%;
@@ -141,34 +136,29 @@ img {
 .navtext{
 	
 	height: 40px;
-	width: 900px;
+	width: 400px;
 	margin: 0px auto;
 		padding: 10px 50px 0px 50px;
 
 	color: #6E6A6B;
 	font-size:35px;
 	position:relative;
-		font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
-
 	
 	
 	}
 .subtext{
 	
 	height: 40px;/*changes the space between the text and the main menu below*/
-	width: 900px;
+	width: 400px;
 	margin: 0px auto;
 	padding: 10px 50px 0px 50px;
 
 	color: #62BF7D;
 	font-size:20px;
 	position:relative;
-			font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
-
 	
 	
 	}
-
 
 
 nav.primary {
@@ -190,7 +180,6 @@ nav.primary ul li a {
 	padding:0 20px;/*changed the space between the words and allows for mobile padding to be good used to be 10px*/
 	text-decoration:none;
 	line-height:39px;
-	font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
 }
 nav.primary ul li a:hover {/*added by nick*/
 	/*height:39px;
@@ -206,13 +195,7 @@ nav.primary ul li a:hover {/*added by nick*/
 
 nav.primary li a.selected {
     border-bottom: 3px solid #62BF7D;/*main nav bar color*/
-    font-family: 'HelveticaNeue','Open Sans'; font-weight:400;
-}
-
-nav.primary li a.more {
-    /*border-bottom: 3px solid #62BF7D;/*main nav bar color*/
-    font-family: 'HelveticaNeue','Open Sans'; font-weight:400;
-    color:#62BF7D;
+    font-family: 'HelveticaNeue';
 }
 
 
@@ -405,17 +388,17 @@ img {
 }
 
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
-	width:1000px;
+	width:400px;
 	height: 70px;
 	margin: 100px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	padding:10px;
 	background-color:#6E6A6B;	
 	position: relative;
-	vertical-align: middle;
 	background-color:#62BF7D;
 }
 #footertext {
 	display: table-cell;
-	width: 1000px;
+	width:400px;
 	height: 70px;
 	position: relative;
 	vertical-align:middle;

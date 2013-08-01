@@ -11,8 +11,10 @@ body {
 	min-height: 100%;
 	/*font-family: 'Arial', sans-serif;*/
 	font-family: 'HelveticaNeue-Ultralight','HelveticaNeue','Arial', sans-serif;/*added by nick*/
+		font-family: 'Open Sans', sans-serif;
 
-	font-weight: 400;
+
+	font-weight: 300;
 	height:100%;
 	min-height:100%;/*Changes the height of the home page!*//*If 100% instead of 900px it does the same thing but better?*/
 	background: #fff;

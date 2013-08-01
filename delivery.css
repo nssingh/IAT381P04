@@ -262,6 +262,10 @@ position:relative;
 	font-family: HelveticaNeue;
 	
 	}
+/*iframe{/*allows video to be resized for mobile!*/
+/*width:20%;
+height:100px;
+}*/
 
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
