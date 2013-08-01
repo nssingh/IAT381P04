@@ -237,8 +237,8 @@ position:relative;
 	float: left;
 	width: 900px;
 	height: 100px;
-		color: #000;
-		font-size:14px;
+		color: #6E6A6B;
+		font-size:16px;
 		font-family: HelveticaNeue-Light;
 
 	position: relative;
@@ -248,12 +248,19 @@ position:relative;
 
 #subtitle {
 	font-size: 30px;
+
 }
-.stuff {
+#contactlink a{
+color:#6E6A6B;
+}
+#contactlink a:hover{
+color:#62BF7D;
+}
+/*.stuff {
 	font-size: 12px;
 	font-family: HelveticaNeue;
 	
-	}
+	}*/
 
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;

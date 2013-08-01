@@ -237,8 +237,8 @@ position:relative;
 	float: left;
 	width: 900px;
 	height: 100px;
-		color: #000;
-		font-size:14px;
+		color: #6E6A6B;
+		font-size:16px;
 		font-family: HelveticaNeue-Light;
 
 	position: relative;
@@ -247,18 +247,18 @@ position:relative;
 }
 
 #subtitle {
-	font-size: 30px;
+	font-size: 26px;
 }
-.stuff {
+/*.stuff {
 	font-size: 12px;
 	font-family: HelveticaNeue;
 	
-	}
+	}*/
 
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 2550px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 2650px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;
