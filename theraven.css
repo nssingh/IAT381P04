@@ -262,6 +262,13 @@ font-size:16px;
 #contactlink a:hover{
 color:#62BF7D;
 }
+#dellink a{
+color:#6E6A6B;
+font-size:26px;
+}
+#dellink a:hover{
+color:#62BF7D;
+}
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;

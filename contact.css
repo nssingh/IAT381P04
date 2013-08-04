@@ -265,7 +265,7 @@ color:#62BF7D;
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 400px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 200px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;
@@ -283,4 +283,4 @@ background-color:#62BF7D;
 	font-size:12px;
 	
 	}
-	
+
