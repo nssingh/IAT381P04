@@ -8,6 +8,8 @@ body{
 	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
 		/*background-image:url('white.jpg');*/
 	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;
+		font-family: 'Open Sans', sans-serif;
+
 	}
 
 
@@ -29,7 +31,7 @@ body{
 	padding: 50px 20px 0px 50px;
 	height:100px;
 	position:absolute;/*allows elements to move freely in container*/
-	font-family: HelveticaNeue-Light;
+	font-family: 'HelveticaNeue-Light', 'Open Sans'; font-weight:400;
 
 
 	}
@@ -41,7 +43,7 @@ body{
 	padding: 115px 20px 0px 50px;
 
 	position:absolute;/*allows elements to move freely within container*/
-	font-family: HelveticaNeue-Light;
+	font-family: 'HelveticaNeue-Light','Open Sans'; font-weight:300;
 
 
 	}
@@ -145,6 +147,8 @@ img {
 	color: #6E6A6B;
 	font-size:35px;
 	position:relative;
+			font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
+
 	
 	
 	}
@@ -158,6 +162,8 @@ img {
 	color: #62BF7D;
 	font-size:20px;
 	position:relative;
+					font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
+
 	
 	
 	}
@@ -170,6 +176,8 @@ img {
 	margin: 0px auto;
 	padding: 40px 20px 0px 50px;
 	position:relative;
+				font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
+
 }
 
 #backarrowmedia{
@@ -239,14 +247,14 @@ position:relative;
 	height: 100px;
 color: #6E6A6B;		
 font-size:16px;
-		font-family: HelveticaNeue-Light;
+		font-family: HelveticaNeue-Light, Open Sans;
 
 	position: relative;
 	padding:0px;
 	margin: 10px 10px 0px 0px;
 }
 
-#subtitle {
+.subtitle {
 	font-size: 26px;
 }
 /*.stuff {
@@ -272,7 +280,7 @@ color:#62BF7D;
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 1100px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 1300px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;
@@ -288,6 +296,8 @@ color:#62BF7D;
 background-color:#62BF7D;
 	color:#fff;
 	font-size:12px;
+			font-family: HelveticaNeue-Light, Open Sans;
+
 	
 	}
 

@@ -3,20 +3,22 @@
 	<head><title>Reddit | Nick Singh Portfolio</title>
 	<!--Coded by Nicholas Singh-->
 	<!--link to mobile and desktop style sheets-->
+         <meta charset="utf-8">
+
       <link rel="stylesheet" type="text/css" href="reddit.css"/>
 	<!--<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="frosh.css"/>-->	<!--media querry, only looks for browser width, applies css when screen is specific size-->
 
 				<link rel="stylesheet" type="text/css" href="normalize.css" /><!--helps to normalize code throughout all the browsers-->
+	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="redditmobile.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
 
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
      
-		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
 		
 
 	<!--changes the CSS depending on screen size-->
     <!--<meta name="viewport" content="width=device-width">-->
     <meta name="viewport" content="width=480">
-    <meta charset="utf-8">
 	</head>
 	<body>
 		<!--header and search-->
@@ -29,9 +31,9 @@
 			<nav>
 				<ul>
   					
-  					<li class="socialicons"><a href="http://www.twitter.com/nicksingh4"><img src="twittericonwhite.png" alt="gridpage" onmouseover="this.src='twittericon2.png'" onmouseout="this.src='twittericonwhite.png'"></a></li>
-  					<li class="socialicons"><a href="http://ca.linkedin.com/in/nicksingh4/"><img src="linkediniconwhite.png" alt="rowpage" onmouseover="this.src='linkedinicon2.png'" onmouseout="this.src='linkediniconwhite.png'"></a></li>
-  					 <li class="socialicons"><a href="http://www.youtube.com/user/LINK1054"><img src="youtubeiconwhite.png" alt="rowpage" onmouseover="this.src='youtubeicon2.png'" onmouseout="this.src='youtubeiconwhite.png'"></a></li>
+  					<li class="socialicons"><a href="http://www.twitter.com/nicksingh4"><img src="./images/twittericonwhite.png" alt="gridpage" onmouseover="this.src='./images/twittericon2.png'" onmouseout="this.src='./images/twittericonwhite.png'"></a></li>
+  					<li class="socialicons"><a href="http://ca.linkedin.com/in/nicksingh4/"><img src="./images/linkediniconwhite.png" alt="rowpage" onmouseover="this.src='./images/linkedinicon2.png'" onmouseout="this.src='./images/linkediniconwhite.png'"></a></li>
+  					 <li class="socialicons"><a href="http://www.youtube.com/user/LINK1054"><img src="./images/youtubeiconwhite.png" alt="rowpage" onmouseover="this.src='./images/youtubeicon2.png'" onmouseout="this.src='./images/youtubeiconwhite.png'"></a></li>
 
 				</ul>
 			</nav>
@@ -51,7 +53,7 @@
 		
 		<div id="backarrowholder">
 		<div id="backarrowmedia">
-<div id="backarrow"><a href="home.html"><img src="arrowicon2.png" alt="gridpage" onmouseover="this.src='arrowicon.png'" onmouseout="this.src='arrowicon2.png'"></a></div>
+<div id="backarrow"><a href="home.html"><img src="./images/arrowicon2.png" alt="gridpage" onmouseover="this.src='./images/arrowicon.png'" onmouseout="this.src='./images/arrowicon2.png'"></a></div>
 		<div id="homeback">go back</div>
 		</div>
 		</div>
@@ -60,19 +62,19 @@
 			
 			
 		<div id="aboutarea"> 
-					<div id="nickheader"><img src="redditheader.png" alt="" ></div>
+					<div id="nickheader"><img src="./images/redditheader.jpg" alt="" ></div>
 
 			
 		<div id="about">
 				
 					<div id="abouttext">
-						<p id="subtitle">Redesigning Reddit</p>
+						<p class="subtitle">Redesigning Reddit</p>
 						
 						<p class="stuff">Our group was tasked on redesigning a popular website, so we chose to redesign Reddit.  The challenge presented
 						was that Reddit has confusing heirarchy and nonsensical navigation, especially for those not accustom to the site.  Our challenge and
 						goal was to give the site an updated look and feel to web 2.0 standards, while not alienating its installed and loyal user base.</p>
 					    
-						<p id="subtitle">User Testing</p>
+						<p class="subtitle">User Testing</p>
 						
 						<p class="stuff">Through user tests, we found what features were most wanted from user experiences in their websites, whether it was Reddit or any
 						other site.  Through static mockups, we were able to grasp what parts of our website redesign worked, and what needed improvement.  We created user profiles
@@ -80,16 +82,16 @@
 						
 						<p class="stuff">Video describing redesign and user profile:</p>
 						
-						<iframe width="900" height="550" src="http://www.youtube.com/embed/Nudh6uAkW9M" frameborder="0" allowfullscreen></iframe>
+						<iframe src="http://www.youtube.com/embed/Nudh6uAkW9M"  allowfullscreen></iframe>
 						
-						<p id="subtitle">End Product</p>
+						<p class="subtitle">End Product</p>
 						
 						<p class="stuff">Redesigned website:</p>
 						
 						<a href="iat201_finalReport_team403.pdf" download="iat201_finalReport_team403.pdf">Click Here to Download Final Project Report</a>
 
 						<p></p>
-						<iframe width="900" height="550" src="http://www.youtube.com/embed/NM_d3MPIy1s" frameborder="0" allowfullscreen></iframe>
+						<iframe  src="http://www.youtube.com/embed/NM_d3MPIy1s"  allowfullscreen></iframe>
 						<!--<div id="about1">
 					<div id="aboutimage"><img src="nickpic.png" alt="owners" height="200" width="200">
 					</div>-->
@@ -104,7 +106,6 @@
 		</div>
 				</div>
 	
-			</div>
 		
 	
 		</body>

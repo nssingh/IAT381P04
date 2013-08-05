@@ -17,14 +17,14 @@ body{
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
-	width: 1000px;
-	height: 180px;/*changes the empty space inbetween the header and the mainmenu*/
+	width: 520px;
+	height: 280px;/*changes the empty space inbetween the header and the mainmenu*/
 	margin: 0px auto;
 	background-color:#62BF7D;
 }
 
 #nstitle{
-	width:1000px;/*stops the title from breaking when page size changes*/
+	width:400px;/*stops the title from breaking when page size changes*/
 	font-size: 60px;
 	color:#fff;
 	margin: 0px auto;
@@ -36,7 +36,7 @@ body{
 
 	}
 #slogan{
-	width:1000px;
+	width:400px;
 	font-size: 20px;
 	color:rgba(255,255,255,.7);
 	margin: 0px 0px 0px 0px;
@@ -50,16 +50,16 @@ body{
 
 #socialmediaholder {
 	height: 40px;
-	width: 950px;/*shifts position of all social media icons(used to be 700*/
+	width: 200px;/*shifts position of all social media icons(used to be 700*/
 	/*
 	background-color: black;*/
 	margin: 0px auto;
-	padding: 50px 20px 0px 50px;
+	padding: 160px 20px 0px 100px;
 	position:absolute;
 }
 
 #socialmedia{
-	float: right;
+	float: left;
 	height: 40px;
 	width: 300px;
 	margin: 0px auto;
@@ -140,7 +140,7 @@ img {
 .navtext{
 	
 	height: 40px;
-	width: 900px;
+	width: 400px;
 	margin: 0px auto;
 		padding: 10px 50px 0px 50px;
 
@@ -155,7 +155,7 @@ img {
 .subtext{
 	
 	height: 40px;/*changes the space between the text and the main menu below*/
-	width: 900px;
+	width: 400px;
 	margin: 0px auto;
 	padding: 10px 50px 0px 50px;
 
@@ -170,7 +170,7 @@ img {
 
 #backarrowholder {
 	height: 40px;
-	width: 950px;/*shifts position of all social media icons(used to be 700*/
+	width: 300px;/*shifts position of all social media icons(used to be 700*/
 	/*
 	background-color: black;*/
 	margin: 0px auto;
@@ -206,19 +206,16 @@ img {
 	padding: 10px 10px 0px 0px;
 }
 
-
-
 #nickheader{
-width:1000px;
-height:300px;
+width:520px;
+height:155px;
 margin: 0px auto;
-
 padding-top:20px;
 position:relative;
 }
 
 #aboutarea {
-	width: 1000px;
+	width: 520px;
 	height: 350px;
 
 	margin: 0px auto;
@@ -226,7 +223,7 @@ position:relative;
 
 
 #about {
-	width: 950px;
+	width: 450px;
 	height: 170px;
 	margin: 0px auto;
 
@@ -234,7 +231,7 @@ position:relative;
 }
 
 #about1 {
-	width: 550px;
+	width: 300px;
 	height: 120px;
 	
 	margin: 25px 20px 25px 20px;
@@ -246,41 +243,38 @@ position:relative;
 
 #abouttext	{
 	float: left;
-	width: 900px;
+	width: 400px;
 	height: 100px;
 		color: #6E6A6B;
 		font-size:16px;
-		font-family: HelveticaNeue-Light, Open Sans;
+		font-family: HelveticaNeue-Light;
 
 	position: relative;
 	padding:0px;
 	margin: 10px 10px 0px 0px;
+			font-family: HelveticaNeue-Light, Open Sans;
+
 }
 
 .subtitle {
-	font-size: 26px;
+	font-size: 30px;
 }
 /*.stuff {
 	font-size: 12px;
 	font-family: HelveticaNeue;
 	
 	}*/
-/*iframe{/*allows video to be resized for mobile!*/
-/*width:20%;
-height:100px;
-}*/
-#contactlink a{
-color:#6E6A6B;
-font-size:26px;
-}
-#contactlink a:hover{
-color:#62BF7D;
+	
+		
+iframe{/*allows video to be resized for mobile!*/
+width:100%;
+height:300px;
 }
 
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
-	width:1000px;
+	width:520px;
 	height: 70px;
-	margin: 1700px 50px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 1250px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;	
 	position: relative;
 	vertical-align: middle;
@@ -288,7 +282,7 @@ color:#62BF7D;
 }
 #footertext {
 	display: table-cell;
-	width: 1000px;
+	width: 520px;
 	height: 70px;
 	position: relative;
 	vertical-align:middle;

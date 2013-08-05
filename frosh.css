@@ -8,6 +8,8 @@ body{
 	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
 		/*background-image:url('white.jpg');*/
 	font: 1em HelveticaNeue-UltraLight, Helvetica, Arial, sans-serif;
+		font-family: 'Open Sans', sans-serif;
+
 	}
 
 
@@ -20,7 +22,6 @@ body{
 	margin: 0px auto;
 	background-color:#62BF7D;
 }
-
 #nstitle{
 	width:1000px;/*stops the title from breaking when page size changes*/
 	font-size: 60px;
@@ -29,7 +30,7 @@ body{
 	padding: 50px 20px 0px 50px;
 	height:100px;
 	position:absolute;/*allows elements to move freely in container*/
-	font-family: HelveticaNeue-Light;
+	font-family: 'HelveticaNeue-Light', 'Open Sans'; font-weight:400;
 
 
 	}
@@ -41,7 +42,7 @@ body{
 	padding: 115px 20px 0px 50px;
 
 	position:absolute;/*allows elements to move freely within container*/
-	font-family: HelveticaNeue-Light;
+	font-family: 'HelveticaNeue-Light','Open Sans'; font-weight:300;
 
 
 	}
@@ -110,6 +111,7 @@ display: inline;
 img {
     vertical-align: middle;
     height: 100%;
+    width:100%/*allows for images to be resized properly, was missing before*/
 }
 
 
@@ -145,6 +147,8 @@ img {
 	color: #6E6A6B;
 	font-size:35px;
 	position:relative;
+			font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
+
 	
 	
 	}
@@ -158,6 +162,8 @@ img {
 	color: #62BF7D;
 	font-size:20px;
 	position:relative;
+					font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
+
 	
 	
 	}
@@ -170,6 +176,8 @@ img {
 	margin: 0px auto;
 	padding: 40px 20px 0px 50px;
 	position:relative;
+				font-family: 'HelveticaNeue-UltraLight','Open Sans'; font-weight:300;
+
 }
 
 #backarrowmedia{
@@ -201,7 +209,7 @@ img {
 #nickheader{
 width:1000px;
 height:300px;
-margin 0px auto;
+margin: 0px auto;
 padding-top:20px;
 position:relative;
 }
@@ -246,7 +254,7 @@ position:relative;
 	height: 100px;
 		color: #6E6A6B;
 		font-size:16px;
-		font-family: HelveticaNeue-Light;
+		font-family: HelveticaNeue-Light, Open Sans;
 
 	position: relative;
 	padding: 0px;
@@ -262,12 +270,23 @@ color:#62BF7D;
 
 .subtitle {
 	font-size: 26px;
+	}
+.froshweb2{
+width:20%;
+height:380%;
+
+	
+}
+.froshweb{
+width:80%;
+height:400%;
+
 	
 }
 #footer {/*needs to scale with page still and needs to be able to adjust according to how many boxes added in portfolio*/
 	width:1000px;
 	height: 70px;
-	margin: 1800px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
+	margin: 2500px 0px 0px 0px;/*NOTE:allows the footer to be positioned properly on home page, but wont move when window scaled*/
 	background-color:#6E6A6B;
 	position: relative;
 	vertical-align: middle;
@@ -283,6 +302,8 @@ color:#62BF7D;
 background-color:#62BF7D;
 	color:#fff;
 	font-size:12px;
+			font-family: HelveticaNeue-Light, Open Sans;
+
 	
 	}
 
